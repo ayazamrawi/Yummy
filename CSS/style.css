@@ -1,0 +1,407 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #000000f2;
+    text-align: left;
+}
+.naaaav{
+    display: block;
+}
+nav{
+    left: -280px;
+    position: relative;
+    height: 100vh;
+    width: 350px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 99999999999999999;
+    display: block;
+}
+nav .navin{
+    width: 80%;
+    background-color: #000000f2;
+    float: left;
+    height: 100%;
+    position: relative;
+}
+nav .navout{
+    width: 20%;
+    background-color: #f8f6f6;
+    float: left;
+    height: 100%;
+    position: relative;
+}
+.clr{
+    clear: both;
+}
+.strip-logo{
+    padding: 25px 0px;
+    text-align: center;
+}
+.strip-menu{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.strip-2icons{
+    position: relative;
+}
+.strip-2icons .fa-align-justify{
+    display: block;
+}
+.strip-2icons .fa-xmark {
+    position: absolute;
+    top: 50%;
+    display: none;
+    font-size: 2rem;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.strip-social-icon{
+    position: absolute;
+bottom: 20px;
+left: 50%;
+transform: translate(-50%);
+}
+.strip-share{
+    padding-top: 20px;
+}
+li{
+    list-style: none;
+}
+.navin ul li a{
+    color: #f9f6f6 !important;
+font-weight: 300;
+font-size: 16px;
+cursor: pointer;
+text-decoration: none;
+}
+.nav-social-item{
+    position: absolute;
+bottom: 50px;
+left: 20px;
+}
+.nav-social-item a {
+    padding-left: 15px;
+font-size: 14px;
+cursor: pointer;
+}
+.fab{
+    font-weight: 400;
+}
+.pt-3{
+    padding-top: 1rem;
+}
+.nav-social-item span{
+    color: #999;
+}
+.navin ul{
+    padding-top: 300px;
+    opacity: 0;
+}
+.insidebody{
+    padding-top: 150px;
+    padding-left: 100px;
+}
+.insideimgs img{
+    border-radius: 5%;
+}
+#myRow .insideimgs{
+    position: relative;
+    overflow: hidden;
+}
+#myRow .insideimgs .layer{
+    position: absolute;
+    top: 100%;
+    left: 8%;
+    right: 8%;
+    bottom: 0%;
+    background-color: rgba(255,255,255,.7);
+    color: #000;
+    font-weight: 200;
+    transition: all 1s; 
+    overflow: hidden;
+    padding-top:80px ;
+    padding-left: 20px;
+    font-size: 2.5rem;
+}
+#myRow .insideimgs:hover .layer{
+    top:0;
+}
+.clickMainbody{
+    padding-top: 150px;
+    color: #fff;
+    display: none;
+}
+.contactus{
+    display: none;
+}
+.search{
+    padding-top: 50px;
+    padding-right: 130px;
+    padding-left: 170px;
+    display: none;
+}
+.innercatries{
+    padding-top: 80px;
+    padding-left: 70px;
+    display: none;
+}
+.catries{
+    padding-top: 80px;
+    padding-left: 70px;
+    display:none;
+}
+.threetimes{
+    color: #fff;
+    padding-top: 100px;
+    display: none;
+
+}
+.inneringrediants{
+    padding-top: 150px;
+    display: none;
+}
+.ingrediants{
+    padding-top: 150px;
+    display: none;
+}
+.ingrediantslist{
+    height: 210px;
+    overflow: hidden; 
+    padding-top: 20px;
+}
+.innerarea{
+    padding-top: 150px;
+    display: none;
+}
+.area{
+    padding-top: 150px;
+    padding-left: 350px;
+    display: none;
+}
+.ingrediantslist{
+    text-align: center;
+    color: #fff;
+    font-weight: 300;
+}
+.ingrediantslist h3{
+    font-weight: 100;
+}
+.fa-bowl-food{
+    color: #9ee650ab;
+}
+.arealist h3{
+    color: #fff;
+    padding-top: 10px;
+    font-weight: 300;
+    padding-right: 10px;
+}
+.fa-city{
+    color: #e65a50ab;
+    text-align: center;
+}
+.img-left{
+    padding-left: 10px;
+}
+.img-left h3{
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+.diisc-right{
+    padding-right: 50px;
+}
+.diisc-right h4{
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+.diisc-right h5{
+    margin-bottom: 1rem;
+    font-family: inherit;
+    font-weight: 300;
+    line-height: 1.2;
+    color: inherit;
+    font-size: 1.7rem;
+}
+.arecipe{
+    background-color: #d4edda;
+    border-radius: 10%;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.25rem;
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+#tags{
+    padding-bottom: 50px;
+}
+.form-control::placeholder{
+    color: #6c757d;
+    opacity: 1;
+}
+::placeholder{
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+}
+.form-control{
+    background-color: #000000f2;;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,.7);
+    font-weight: 300;
+}
+.photosresult{
+    padding-top: 100px;
+}
+#bodysearch .innersearch .layer{
+    position: absolute;
+    top: 100%;
+    left: 8%;
+    right: 8%;
+    bottom: 0%;
+    background-color: rgba(255,255,255,.7);
+    color: #000;
+    font-weight: 200;
+    transition: all 1s; 
+    overflow: hidden;
+    padding-top:80px ;
+    padding-left: 20px;
+    font-size: 2.5rem;
+}
+#bodysearch .innersearch:hover .layer{
+    top:0;
+}
+#bodysearch .innersearch{
+    position: relative;
+    overflow: hidden;
+}
+#bodycat .catcat2{
+    position: relative;
+    overflow: hidden;
+}
+#bodycat .catcat2 .layer1{
+    position: absolute;
+    top: 100%;
+    left: 4%;
+    right: 4%;
+    bottom: 0%;
+    background-color: rgba(255,255,255,.7);
+    color: #000;
+    transition: all 1s; 
+    overflow: hidden;
+}
+.catcat2 .layer1 h4{
+    text-align:center;
+    font-weight:200;
+    font-size:1.9rem;
+}
+.catcat2 .layer1 p{
+    font-size:0.9rem;
+    font-weight:200;
+}
+#bodycat .catcat2:hover .layer1{
+    top:0;
+}
+#bodyinnercat .catcat2 .layer2{
+    position: absolute;
+    top: 100%;
+    left: 4%;
+    right: 4%;
+    bottom: 0%;
+    background-color: rgba(255,255,255,.7);
+    color: #000;
+    font-weight: 200;
+    transition: all 1s; 
+    overflow: hidden;
+    padding-top:80px ;
+    padding-left: 20px;
+    font-size: 2.5rem;
+}
+#bodyinnercat .catcat2:hover .layer2{
+    top:0;
+}
+#bodyinnercat .catcat2{
+    position: relative;
+    overflow: hidden;
+}
+#innerarea1 .areaarea2 .layer{
+    position: absolute;
+    top: 100%;
+    left: 4%;
+    right: 4%;
+    bottom: 12%;
+    background-color: rgba(255,255,255,.7);
+    color: #000;
+    font-weight: 200;
+    transition: all 1s; 
+    overflow: hidden;
+    padding-top:80px ;
+    padding-left: 20px;
+    font-size: 2.5rem;
+}
+#innerarea1 .areaarea2:hover .layer{
+    top:0;
+}
+#innerarea1 .areaarea2{
+    position: relative;
+    overflow: hidden;
+}
+#inneringrediants1 .ingrediants2 .layer{
+    position: absolute;
+    top: 100%;
+    left: 4%;
+    right: 4%;
+    bottom: 12%;
+    background-color: rgba(255,255,255,.7);
+    color: #000;
+    font-weight: 200;
+    transition: all 1s; 
+    overflow: hidden;
+    padding-top:80px ;
+    padding-left: 20px;
+    font-size: 2.5rem;
+}
+#inneringrediants1 .ingrediants2:hover .layer{
+    top:0;
+}
+#inneringrediants1 .ingrediants2{
+    position: relative;
+    overflow: hidden;
+}
+.contactss{
+    display: flex;
+}
+.styling{
+    padding-top: 150px;
+}
+#submitbuttn{
+    display: block;
+}
+#submit2:hover{
+    color: #dc3545;
+}
+#submit2{
+    display: none;
+}
+
+
+
+.overall{
+    cursor: pointer;
+}
